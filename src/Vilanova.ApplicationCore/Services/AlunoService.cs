@@ -6,7 +6,8 @@ namespace Vilanova.ApplicationCore.Services
 {
     public class AlunoService : Service<Aluno>, IAlunoService
     {
-        public AlunoService(IRepository<Aluno> repository) : base(repository)
+        
+        public AlunoService(IAlunoRepository alunoRepository) : base(alunoRepository)
         {
         }
         

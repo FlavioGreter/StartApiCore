@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -31,6 +32,19 @@ namespace Vilanova.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+
+
+            services.AddMvc()
+            .AddFluentValidation(fvc =>
+                fvc.RegisterValidatorsFromAssemblyContaining<Startup>());
+
+            //// Add framework services.
+            //services.AddMvc();
+
+
+
+
 
             services.AddDbContext<VilanovaContext>(options =>
                         options.UseSqlServer(Configuration.GetConnectionString("MyConnectionString")));

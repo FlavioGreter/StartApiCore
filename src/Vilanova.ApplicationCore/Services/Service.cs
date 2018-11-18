@@ -22,7 +22,7 @@ namespace Vilanova.ApplicationCore.Services
             {
                 _repository.Add(entity);
             }
-            catch (Exception)
+            catch (Exception )
             {
                 throw;
             }
