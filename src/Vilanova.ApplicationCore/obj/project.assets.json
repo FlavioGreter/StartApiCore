@@ -7189,9 +7189,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.ApplicationCore\\Vilanova.ApplicationCore.csproj",
-      "projectName": "Vilanova.ApplicationCore",
-      "projectPath": "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.ApplicationCore\\Vilanova.ApplicationCore.csproj",
+      "projectUniqueName": "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.ApplicationCore\\Vilanova.Domain.csproj",
+      "projectName": "Vilanova.Domain",
+      "projectPath": "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.ApplicationCore\\Vilanova.Domain.csproj",
       "packagesPath": "C:\\Users\\Flavio Luis Greter\\.nuget\\packages\\",
       "outputPath": "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",

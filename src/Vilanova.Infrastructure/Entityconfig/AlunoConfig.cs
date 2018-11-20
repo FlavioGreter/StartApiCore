@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Vilanova.ApplicationCore.Entities;
+using Vilanova.Domain.Entities;
 
 namespace Vilanova.Infrastructure.Entityconfig
 {

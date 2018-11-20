@@ -27,7 +27,8 @@
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1",
-          "Vilanova.ApplicationCore": "1.0.0",
+          "Vilanova.Application": "1.0.0",
+          "Vilanova.Domain": "1.0.0",
           "Vilanova.Infrastructure": "1.0.0"
         },
         "runtime": {
@@ -684,22 +685,33 @@
         }
       },
       "System.ValueTuple/4.5.0": {},
-      "Vilanova.ApplicationCore/1.0.0": {
+      "Vilanova.Application/1.0.0": {
+        "dependencies": {
+          "Vilanova.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Vilanova.Application.dll": {}
+        },
+        "compile": {
+          "Vilanova.Application.dll": {}
+        }
+      },
+      "Vilanova.Domain/1.0.0": {
         "dependencies": {
           "FluentValidation.AspNetCore": "8.0.100"
         },
         "runtime": {
-          "Vilanova.ApplicationCore.dll": {}
+          "Vilanova.Domain.dll": {}
         },
         "compile": {
-          "Vilanova.ApplicationCore.dll": {}
+          "Vilanova.Domain.dll": {}
         }
       },
       "Vilanova.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.1.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.4",
-          "Vilanova.ApplicationCore": "1.0.0"
+          "Vilanova.Domain": "1.0.0"
         },
         "runtime": {
           "Vilanova.Infrastructure.dll": {}
@@ -3838,7 +3850,12 @@
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
-    "Vilanova.ApplicationCore/1.0.0": {
+    "Vilanova.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vilanova.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

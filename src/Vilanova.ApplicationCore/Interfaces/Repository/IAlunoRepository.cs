@@ -1,6 +1,6 @@
-﻿using Vilanova.ApplicationCore.Entities;
+﻿using Vilanova.Domain.Entities;
 
-namespace Vilanova.ApplicationCore.Interfaces.Repository
+namespace Vilanova.Domain.Interfaces.Repository
 {
     public interface IAlunoRepository: IRepository<Aluno>
     {

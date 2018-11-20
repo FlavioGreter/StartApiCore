@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
-using Vilanova.ApplicationCore.Entities;
-using Vilanova.ApplicationCore.Interfaces.Repository;
-using Vilanova.ApplicationCore.Interfaces.Services;
+using Vilanova.Application.Interfaces;
+using Vilanova.Domain.Entities;
 
 namespace Vilanova.WebApi.Controllers
 {
@@ -11,25 +9,25 @@ namespace Vilanova.WebApi.Controllers
     [ApiController]
     public class AlunosController : ControllerBase
     {
-        private readonly IAlunoService _alunoService;
+        private readonly IAlunoAppService _alunoAppService;
 
-        public AlunosController(IAlunoService alunoService)
+        public AlunosController(IAlunoAppService alunoAppService)
         {
-            _alunoService = alunoService;
+            _alunoAppService = alunoAppService;
         }
 
         // GET: Alunoes
         [HttpGet]
         public IEnumerable<Aluno> Get()
         {
-            return _alunoService.GetAll();
+            return _alunoAppService.GetAll();
         }
 
         // GET api/Alunos/5
         [HttpGet("{id}")]
         public Aluno Get(int id)
         {
-            return _alunoService.GetById(id);
+            return _alunoAppService.GetById(id);
         }
 
         // POST api/Alunos
@@ -37,8 +35,8 @@ namespace Vilanova.WebApi.Controllers
         public void Post([FromBody] Aluno aluno)
         {
 
-     
-            _alunoService.Add(aluno);
+
+            _alunoAppService.Add(aluno);
          
         }
 
@@ -46,14 +44,14 @@ namespace Vilanova.WebApi.Controllers
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] Aluno aluno)
         {
-            _alunoService.Update(aluno);
+            _alunoAppService.Update(aluno);
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            _alunoService.DeleteById(id);
+            _alunoAppService.DeleteById(id);
         }
     }
 }

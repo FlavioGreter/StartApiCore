@@ -1,19 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using FluentValidation.AspNetCore;
+﻿using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Vilanova.ApplicationCore.Interfaces.Repository;
-using Vilanova.ApplicationCore.Interfaces.Services;
-using Vilanova.ApplicationCore.Services;
+using Vilanova.Application;
+using Vilanova.Application.Interfaces;
+using Vilanova.Domain.Interfaces.Repository;
+using Vilanova.Domain.Interfaces.Services;
+using Vilanova.Domain.Services;
 using Vilanova.Infrastructure.Data;
 using Vilanova.Infrastructure.Repository;
 
@@ -52,6 +48,7 @@ namespace Vilanova.WebApi
             
             services.AddTransient<IAlunoRepository, AlunoRepository>();
             services.AddTransient<IAlunoService, AlunoService>();
+            services.AddTransient<IAlunoAppService, AlunoAppService>();
             
         }
 

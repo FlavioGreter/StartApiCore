@@ -1,5 +1,5 @@
-﻿using Vilanova.ApplicationCore.Entities;
-using Vilanova.ApplicationCore.Interfaces.Repository;
+﻿using Vilanova.Domain.Entities;
+using Vilanova.Domain.Interfaces.Repository;
 using Vilanova.Infrastructure.Data;
 
 namespace Vilanova.Infrastructure.Repository

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace Vilanova.ApplicationCore.Interfaces.Repository
+namespace Vilanova.Domain.Interfaces.Repository
 {
     public interface IRepository<TEntity> where TEntity: class
     {

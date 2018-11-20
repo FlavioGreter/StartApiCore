@@ -18,7 +18,7 @@ namespace Vilanova.Infrastructure.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Vilanova.ApplicationCore.Entities.Aluno", b =>
+            modelBuilder.Entity("Vilanova.Domain.Entities.Aluno", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()

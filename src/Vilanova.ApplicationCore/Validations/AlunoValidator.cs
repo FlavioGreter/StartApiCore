@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
-using Vilanova.ApplicationCore.Entities;
+using Vilanova.Domain.Entities;
 
-namespace Vilanova.ApplicationCore.Validations
+namespace Vilanova.Domain.Validations
 {
     public class AlunoValidator: AbstractValidator<Aluno>
     {

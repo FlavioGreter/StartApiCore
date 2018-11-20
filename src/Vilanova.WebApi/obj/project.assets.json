@@ -4665,17 +4665,30 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Vilanova.ApplicationCore/1.0.0": {
+      "Vilanova.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Vilanova.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vilanova.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vilanova.Application.dll": {}
+        }
+      },
+      "Vilanova.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FluentValidation.AspNetCore": "8.0.100"
         },
         "compile": {
-          "bin/placeholder/Vilanova.ApplicationCore.dll": {}
+          "bin/placeholder/Vilanova.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Vilanova.ApplicationCore.dll": {}
+          "bin/placeholder/Vilanova.Domain.dll": {}
         }
       },
       "Vilanova.Infrastructure/1.0.0": {
@@ -4684,7 +4697,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.1.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.4",
-          "Vilanova.ApplicationCore": "1.0.0"
+          "Vilanova.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Vilanova.Infrastructure.dll": {}
@@ -12438,10 +12451,15 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "Vilanova.ApplicationCore/1.0.0": {
+    "Vilanova.Application/1.0.0": {
       "type": "project",
-      "path": "../Vilanova.ApplicationCore/Vilanova.ApplicationCore.csproj",
-      "msbuildProject": "../Vilanova.ApplicationCore/Vilanova.ApplicationCore.csproj"
+      "path": "../Vilanova.Application/Vilanova.Application.csproj",
+      "msbuildProject": "../Vilanova.Application/Vilanova.Application.csproj"
+    },
+    "Vilanova.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Vilanova.ApplicationCore/Vilanova.Domain.csproj",
+      "msbuildProject": "../Vilanova.ApplicationCore/Vilanova.Domain.csproj"
     },
     "Vilanova.Infrastructure/1.0.0": {
       "type": "project",
@@ -12454,7 +12472,8 @@
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1",
-      "Vilanova.ApplicationCore >= 1.0.0",
+      "Vilanova.Application >= 1.0.0",
+      "Vilanova.Domain >= 1.0.0",
       "Vilanova.Infrastructure >= 1.0.0"
     ]
   },
@@ -12488,8 +12507,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.ApplicationCore\\Vilanova.ApplicationCore.csproj": {
-              "projectPath": "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.ApplicationCore\\Vilanova.ApplicationCore.csproj"
+            "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.ApplicationCore\\Vilanova.Domain.csproj": {
+              "projectPath": "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.ApplicationCore\\Vilanova.Domain.csproj"
+            },
+            "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.Application\\Vilanova.Application.csproj": {
+              "projectPath": "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.Application\\Vilanova.Application.csproj"
             },
             "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.Infrastructure\\Vilanova.Infrastructure.csproj": {
               "projectPath": "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.Infrastructure\\Vilanova.Infrastructure.csproj"

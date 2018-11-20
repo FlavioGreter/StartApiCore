@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Vilanova.ApplicationCore.Entities;
+using Vilanova.Domain.Entities;
 using Vilanova.Infrastructure.Entityconfig;
 
 namespace Vilanova.Infrastructure.Data

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace Vilanova.ApplicationCore.Interfaces.Services
+namespace Vilanova.Domain.Interfaces.Services
 {
     public interface IService<TEntity> where TEntity : class
     {

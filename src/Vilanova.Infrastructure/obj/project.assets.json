@@ -2543,17 +2543,17 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Vilanova.ApplicationCore/1.0.0": {
+      "Vilanova.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FluentValidation.AspNetCore": "8.0.100"
         },
         "compile": {
-          "bin/placeholder/Vilanova.ApplicationCore.dll": {}
+          "bin/placeholder/Vilanova.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Vilanova.ApplicationCore.dll": {}
+          "bin/placeholder/Vilanova.Domain.dll": {}
         }
       }
     }
@@ -7696,10 +7696,10 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "Vilanova.ApplicationCore/1.0.0": {
+    "Vilanova.Domain/1.0.0": {
       "type": "project",
-      "path": "../Vilanova.ApplicationCore/Vilanova.ApplicationCore.csproj",
-      "msbuildProject": "../Vilanova.ApplicationCore/Vilanova.ApplicationCore.csproj"
+      "path": "../Vilanova.ApplicationCore/Vilanova.Domain.csproj",
+      "msbuildProject": "../Vilanova.ApplicationCore/Vilanova.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7707,7 +7707,7 @@
       "Microsoft.EntityFrameworkCore >= 2.1.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.4",
       "NETStandard.Library >= 2.0.3",
-      "Vilanova.ApplicationCore >= 1.0.0"
+      "Vilanova.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7740,8 +7740,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.ApplicationCore\\Vilanova.ApplicationCore.csproj": {
-              "projectPath": "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.ApplicationCore\\Vilanova.ApplicationCore.csproj"
+            "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.ApplicationCore\\Vilanova.Domain.csproj": {
+              "projectPath": "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.ApplicationCore\\Vilanova.Domain.csproj"
             }
           }
         }

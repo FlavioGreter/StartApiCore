@@ -1,8 +1,8 @@
-﻿using Vilanova.ApplicationCore.Entities;
-using Vilanova.ApplicationCore.Interfaces.Repository;
-using Vilanova.ApplicationCore.Interfaces.Services;
+﻿using Vilanova.Domain.Entities;
+using Vilanova.Domain.Interfaces.Repository;
+using Vilanova.Domain.Interfaces.Services;
 
-namespace Vilanova.ApplicationCore.Services
+namespace Vilanova.Domain.Services
 {
     public class AlunoService : Service<Aluno>, IAlunoService
     {

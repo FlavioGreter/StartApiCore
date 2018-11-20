@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using Vilanova.ApplicationCore.Interfaces.Repository;
-using Vilanova.ApplicationCore.Interfaces.Services;
+using Vilanova.Domain.Interfaces.Repository;
+using Vilanova.Domain.Interfaces.Services;
 
-namespace Vilanova.ApplicationCore.Services
+namespace Vilanova.Domain.Services
 {
     public class Service<TEntity> : IService<TEntity> where TEntity : class
     {

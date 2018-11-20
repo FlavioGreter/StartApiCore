@@ -1,4 +1,4 @@
-﻿namespace Vilanova.ApplicationCore.Entities
+﻿namespace Vilanova.Domain.Entities
 {
     public abstract class EntityBase
     {

@@ -1,6 +1,6 @@
-﻿using Vilanova.ApplicationCore.Entities;
+﻿using Vilanova.Domain.Entities;
 
-namespace Vilanova.ApplicationCore.Interfaces.Services
+namespace Vilanova.Domain.Interfaces.Services
 {
     public interface IAlunoService: IService<Aluno>
     {

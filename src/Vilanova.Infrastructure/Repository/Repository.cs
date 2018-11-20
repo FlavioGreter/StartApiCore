@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using Vilanova.ApplicationCore.Interfaces.Repository;
+using Vilanova.Domain.Interfaces.Repository;
 using Vilanova.Infrastructure.Data;
 
 namespace Vilanova.Infrastructure.Repository
