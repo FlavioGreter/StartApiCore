@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Vilanova.ApplicationCore\Vilanova.Domain.csproj" />
+    <ProjectReference Include="..\Vilanova.Domain\Vilanova.Domain.csproj" />
   </ItemGroup>
 
 </Project>

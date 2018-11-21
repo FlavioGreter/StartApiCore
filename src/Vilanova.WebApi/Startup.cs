@@ -1,4 +1,4 @@
-﻿using FluentValidation.AspNetCore;
+﻿//using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -31,9 +31,9 @@ namespace Vilanova.WebApi
 
 
 
-            services.AddMvc()
-            .AddFluentValidation(fvc =>
-                fvc.RegisterValidatorsFromAssemblyContaining<Startup>());
+            //services.AddMvc()
+            //.AddFluentValidation(fvc =>
+            //    fvc.RegisterValidatorsFromAssemblyContaining<Startup>());
 
             //// Add framework services.
             //services.AddMvc();

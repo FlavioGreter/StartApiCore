@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Vilanova.ApplicationCore\Vilanova.Domain.csproj" />
+    <ProjectReference Include="..\Vilanova.Domain\Vilanova.Domain.csproj" />
+    <ProjectReference Include="..\Vilanova.Infrastructure\Vilanova.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

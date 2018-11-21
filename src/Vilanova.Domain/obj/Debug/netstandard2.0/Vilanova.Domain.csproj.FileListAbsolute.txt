@@ -1,0 +1,9 @@
+C:\projetos\csharp\Vilanova\src\Vilanova.Domain\bin\Debug\netstandard2.0\Vilanova.Domain.deps.json
+C:\projetos\csharp\Vilanova\src\Vilanova.Domain\bin\Debug\netstandard2.0\Vilanova.Domain.dll
+C:\projetos\csharp\Vilanova\src\Vilanova.Domain\bin\Debug\netstandard2.0\Vilanova.Domain.pdb
+C:\projetos\csharp\Vilanova\src\Vilanova.Domain\obj\Debug\netstandard2.0\Vilanova.Domain.csprojAssemblyReference.cache
+C:\projetos\csharp\Vilanova\src\Vilanova.Domain\obj\Debug\netstandard2.0\Vilanova.Domain.csproj.CoreCompileInputs.cache
+C:\projetos\csharp\Vilanova\src\Vilanova.Domain\obj\Debug\netstandard2.0\Vilanova.Domain.AssemblyInfoInputs.cache
+C:\projetos\csharp\Vilanova\src\Vilanova.Domain\obj\Debug\netstandard2.0\Vilanova.Domain.AssemblyInfo.cs
+C:\projetos\csharp\Vilanova\src\Vilanova.Domain\obj\Debug\netstandard2.0\Vilanova.Domain.dll
+C:\projetos\csharp\Vilanova\src\Vilanova.Domain\obj\Debug\netstandard2.0\Vilanova.Domain.pdb

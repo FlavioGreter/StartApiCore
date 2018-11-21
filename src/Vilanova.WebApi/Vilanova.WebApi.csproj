@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Vilanova.ApplicationCore\Vilanova.Domain.csproj" />
     <ProjectReference Include="..\Vilanova.Application\Vilanova.Application.csproj" />
+    <ProjectReference Include="..\Vilanova.Domain\Vilanova.Domain.csproj" />
     <ProjectReference Include="..\Vilanova.Infrastructure\Vilanova.Infrastructure.csproj" />
   </ItemGroup>
 
