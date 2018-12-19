@@ -176,23 +176,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Flavio Luis Greter\\.nuget\\packages\\": {},
+    "C:\\Users\\35393\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.Domain\\Vilanova.Domain.csproj",
+      "projectUniqueName": "D:\\_projetos\\StartApiCore\\src\\Vilanova.Domain\\Vilanova.Domain.csproj",
       "projectName": "Vilanova.Domain",
-      "projectPath": "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.Domain\\Vilanova.Domain.csproj",
-      "packagesPath": "C:\\Users\\Flavio Luis Greter\\.nuget\\packages\\",
-      "outputPath": "C:\\projetos\\csharp\\Vilanova\\src\\Vilanova.Domain\\obj\\",
+      "projectPath": "D:\\_projetos\\StartApiCore\\src\\Vilanova.Domain\\Vilanova.Domain.csproj",
+      "packagesPath": "C:\\Users\\35393\\.nuget\\packages\\",
+      "outputPath": "D:\\_projetos\\StartApiCore\\src\\Vilanova.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Flavio Luis Greter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\35393\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -200,7 +200,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "http://packages.tjmt.jus.br/nuget/nuget/": {}
       },
       "frameworks": {
         "netstandard2.0": {

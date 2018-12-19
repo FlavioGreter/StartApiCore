@@ -12,3 +12,17 @@ C:\projetos\csharp\Vilanova\src\Vilanova.Application\obj\Debug\netstandard2.0\Vi
 C:\projetos\csharp\Vilanova\src\Vilanova.Application\obj\Debug\netstandard2.0\Vilanova.Application.csproj.CopyComplete
 C:\projetos\csharp\Vilanova\src\Vilanova.Application\obj\Debug\netstandard2.0\Vilanova.Application.dll
 C:\projetos\csharp\Vilanova\src\Vilanova.Application\obj\Debug\netstandard2.0\Vilanova.Application.pdb
+D:\_projetos\StartApiCore\src\Vilanova.Application\bin\Debug\netstandard2.0\Vilanova.Application.deps.json
+D:\_projetos\StartApiCore\src\Vilanova.Application\bin\Debug\netstandard2.0\Vilanova.Application.dll
+D:\_projetos\StartApiCore\src\Vilanova.Application\bin\Debug\netstandard2.0\Vilanova.Application.pdb
+D:\_projetos\StartApiCore\src\Vilanova.Application\bin\Debug\netstandard2.0\Vilanova.Domain.dll
+D:\_projetos\StartApiCore\src\Vilanova.Application\bin\Debug\netstandard2.0\Vilanova.Infrastructure.dll
+D:\_projetos\StartApiCore\src\Vilanova.Application\bin\Debug\netstandard2.0\Vilanova.Domain.pdb
+D:\_projetos\StartApiCore\src\Vilanova.Application\bin\Debug\netstandard2.0\Vilanova.Infrastructure.pdb
+D:\_projetos\StartApiCore\src\Vilanova.Application\obj\Debug\netstandard2.0\Vilanova.Application.csprojAssemblyReference.cache
+D:\_projetos\StartApiCore\src\Vilanova.Application\obj\Debug\netstandard2.0\Vilanova.Application.csproj.CoreCompileInputs.cache
+D:\_projetos\StartApiCore\src\Vilanova.Application\obj\Debug\netstandard2.0\Vilanova.Application.AssemblyInfoInputs.cache
+D:\_projetos\StartApiCore\src\Vilanova.Application\obj\Debug\netstandard2.0\Vilanova.Application.AssemblyInfo.cs
+D:\_projetos\StartApiCore\src\Vilanova.Application\obj\Debug\netstandard2.0\Vilanova.Application.csproj.CopyComplete
+D:\_projetos\StartApiCore\src\Vilanova.Application\obj\Debug\netstandard2.0\Vilanova.Application.dll
+D:\_projetos\StartApiCore\src\Vilanova.Application\obj\Debug\netstandard2.0\Vilanova.Application.pdb
