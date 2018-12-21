@@ -46,14 +46,20 @@ namespace Vilanova.WebApi
             services.AddDbContext<VilanovaContext>(options =>
                         options.UseSqlServer(Configuration.GetConnectionString("MyConnectionString")));
 
-            
-            services.AddTransient<IAlunoRepository, AlunoRepository>();
 
-            services.AddTransient<IAlunoService, AlunoService>();
+            // services.AddTransient<IAlunoRepository, AlunoRepository>();
 
-            services.AddTransient<IAlunoAppService, AlunoAppService>();
+            //services.AddTransient<IAlunoService, AlunoService>();
 
-            
+            //services.AddTransient<IAlunoAppService, AlunoAppService>();
+
+            services.AddTransient<IPessoaRepository, PessoaRepository>();
+
+            services.AddTransient<IPessoaService, PessoaService>();
+
+            services.AddTransient<IPessoaAppService, PessoaAppService>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

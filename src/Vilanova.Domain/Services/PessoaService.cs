@@ -4,12 +4,11 @@ using Vilanova.Domain.Interfaces.Services;
 
 namespace Vilanova.Domain.Services
 {
-    public class AlunoService : Service<Aluno>, IAlunoService
+    public class PessoaService: Service<Pessoa>, IPessoaService
     {
-        
-        public AlunoService(IAlunoRepository alunoRepository) : base(alunoRepository)
+        public PessoaService(IPessoaRepository pessoaRepository): base(pessoaRepository)
         {
+
         }
-        
     }
 }
