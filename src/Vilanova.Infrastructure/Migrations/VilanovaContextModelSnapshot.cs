@@ -50,7 +50,7 @@ namespace Vilanova.Infrastructure.Migrations
                         .HasColumnName("EnderecoId")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("Bairro")
+                    b.Property<string>("Bairro")
                         .HasColumnName("Bairro")
                         .HasMaxLength(255);
 

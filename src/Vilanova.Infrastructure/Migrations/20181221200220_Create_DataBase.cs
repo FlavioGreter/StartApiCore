@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Vilanova.Infrastructure.Migrations
 {
-    public partial class Create_Fist_DataBase : Migration
+    public partial class Create_DataBase : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -46,7 +46,7 @@ namespace Vilanova.Infrastructure.Migrations
                     EnderecoId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     PessoaId = table.Column<int>(nullable: false),
-                    Bairro = table.Column<int>(maxLength: 255, nullable: false),
+                    Bairro = table.Column<string>(maxLength: 255, nullable: true),
                     Descricao = table.Column<string>(maxLength: 255, nullable: true)
                 },
                 constraints: table =>

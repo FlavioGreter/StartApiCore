@@ -59,6 +59,30 @@ namespace Vilanova.WebApi
 
             services.AddTransient<IPessoaAppService, PessoaAppService>();
 
+            //interfaces de enderecos
+
+            services.AddTransient<IEnderecoReposiroty, EnderecoRepository>();
+
+            services.AddTransient<IEnderecoService, EnderecoService>();
+
+            services.AddTransient<IEnderecoAppService, EnderecoAppService>();
+
+            //interfaces de contato
+
+            services.AddTransient<IContatoRepository, ContatoRepository>();
+
+            services.AddTransient<IContatoService, ContatoService>();
+
+            services.AddTransient<IContatoAppService, ContatoAppService>();
+
+            //interfaces de tipo contato
+
+            services.AddTransient<ITipoContatoRepository, TipoContatoRepository>();
+
+            services.AddTransient<ITipoContatoService, TipoContatoService>();
+
+            services.AddTransient<ITipoContatoAppService, TipoContatoAppService>();
+
 
         }
 

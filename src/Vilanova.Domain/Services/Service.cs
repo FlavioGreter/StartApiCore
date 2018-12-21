@@ -22,7 +22,7 @@ namespace Vilanova.Domain.Services
             {
                 _repository.Add(entity);
             }
-            catch (Exception )
+            catch (Exception ex )
             {
                 throw;
             }
@@ -36,7 +36,7 @@ namespace Vilanova.Domain.Services
             {
                 _repository.DeleteById(id);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
                 throw;

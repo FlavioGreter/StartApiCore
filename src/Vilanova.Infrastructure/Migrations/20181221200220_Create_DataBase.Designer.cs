@@ -10,8 +10,8 @@ using Vilanova.Infrastructure.Data;
 namespace Vilanova.Infrastructure.Migrations
 {
     [DbContext(typeof(VilanovaContext))]
-    [Migration("20181221005333_Create_Fist_DataBase")]
-    partial class Create_Fist_DataBase
+    [Migration("20181221200220_Create_DataBase")]
+    partial class Create_DataBase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -52,7 +52,7 @@ namespace Vilanova.Infrastructure.Migrations
                         .HasColumnName("EnderecoId")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("Bairro")
+                    b.Property<string>("Bairro")
                         .HasColumnName("Bairro")
                         .HasMaxLength(255);
 
