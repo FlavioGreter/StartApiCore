@@ -12,13 +12,13 @@ namespace Vilanova.Domain.Entities
         public DateTime DataNascimento { get; set; }
         public DateTime DataCadastro { get; set; }
 
-        public virtual ICollection<Endereco> Endereco { get; set; }
-        public virtual ICollection<Contato> Contato { get; set; }
+        public  ICollection<Endereco> Enderecos { get; set; }
+        public  ICollection<Contato> Contatos { get; set; }
 
         public Pessoa()
         {
-            this.Endereco = new HashSet<Endereco>();
-            this.Contato = new HashSet<Contato>();
+            this.Enderecos = new HashSet<Endereco>();
+            this.Contatos = new HashSet<Contato>();
             this.DataCadastro = DateTime.Now;
         }
     }

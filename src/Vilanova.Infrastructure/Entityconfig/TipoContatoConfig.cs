@@ -17,11 +17,11 @@ namespace Vilanova.Infrastructure.Entityconfig
                 .HasColumnName("Descricao")
                 .HasMaxLength(255);
 
-            builder.HasMany(C => C.Contato)
-                .WithOne(t => t.TipoContato)
-                .HasForeignKey(c => c.TipoContatoId)
-                .HasPrincipalKey(t => t.id);
-                
+            builder.HasMany(e => e.Contatos)
+                .WithOne(p => p.TipoContato)
+                .HasForeignKey(e => e.TipoContatoId)
+                .HasPrincipalKey(p => p.id);
+
         }
     }
 }

@@ -18,6 +18,20 @@ namespace Vilanova.Infrastructure.Entityconfig
             builder.Property(c => c.Descricao)
                 .HasColumnName("Descricao")
                 .HasMaxLength(255);
+
+            builder.Property(c => c.TipoContatoId)
+               .HasColumnName("TipoContatoId");
+
+            builder.HasOne(tc => tc.TipoContato)
+             .WithMany(e => e.Contatos)
+             .HasForeignKey(fk => fk.TipoContatoId)
+             .HasPrincipalKey(e => e.id);
+
+            builder.HasOne(p => p.Pessoa)
+              .WithMany(e => e.Contatos)
+              .HasForeignKey(fk => fk.PessoaId)
+              .HasPrincipalKey(e => e.id);
+
         }
     }
 }

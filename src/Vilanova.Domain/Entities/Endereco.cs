@@ -6,7 +6,7 @@
         public string Bairro { get; set; }
         public string Descricao { get; set; }
 
-        public virtual Pessoa Pessoa { get; set; }
+        public Pessoa Pessoa { get; set; }
         
     }
 }

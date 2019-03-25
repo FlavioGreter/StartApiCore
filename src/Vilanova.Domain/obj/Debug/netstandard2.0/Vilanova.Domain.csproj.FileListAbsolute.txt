@@ -24,3 +24,4 @@ D:\_projetos\StartApiCore\src\Vilanova.Domain\obj\Debug\netstandard2.0\Vilanova.
 D:\_projetos\StartApiCore\src\Vilanova.Domain\obj\Debug\netstandard2.0\Vilanova.Domain.AssemblyInfo.cs
 D:\_projetos\StartApiCore\src\Vilanova.Domain\obj\Debug\netstandard2.0\Vilanova.Domain.dll
 D:\_projetos\StartApiCore\src\Vilanova.Domain\obj\Debug\netstandard2.0\Vilanova.Domain.pdb
+D:\_projetos\StartApiCore\src\Vilanova.Domain\obj\Debug\netstandard2.0\Vilanova.Domain.csprojAssemblyReference.cache

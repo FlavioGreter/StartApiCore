@@ -200,7 +200,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://packages.tjmt.jus.br/nuget/nuget/": {}
+        "http://nuget.tjmt.jus.br/repository/nuget/": {}
       },
       "frameworks": {
         "netstandard2.0": {

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using Vilanova.Application.Interfaces;
 using Vilanova.Domain.Entities;
@@ -21,7 +22,16 @@ namespace Vilanova.WebApi.Controllers
         [HttpGet]
         public IEnumerable<Endereco> Get()
         {
-            return _enderecoAppService.GetAll();
+            try
+            {
+
+                return _enderecoAppService.GetAllWithInclude();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+       
         }
 
         // GET: api/Endereco/5

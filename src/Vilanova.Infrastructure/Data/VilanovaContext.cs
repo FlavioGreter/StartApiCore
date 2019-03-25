@@ -2,6 +2,7 @@
 using Vilanova.Domain.Entities;
 using Vilanova.Infrastructure.Entityconfig;
 
+
 namespace Vilanova.Infrastructure.Data
 {
     public class VilanovaContext: DbContext
@@ -17,11 +18,11 @@ namespace Vilanova.Infrastructure.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
             modelBuilder.ApplyConfiguration(new PessoaConfig());
             modelBuilder.ApplyConfiguration(new EnderecoConfig());
             modelBuilder.ApplyConfiguration(new ContatoConfig());
             modelBuilder.ApplyConfiguration(new TipoContatoConfig());
+           
         }
 
     }

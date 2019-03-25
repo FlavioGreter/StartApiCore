@@ -10,8 +10,8 @@ using Vilanova.Infrastructure.Data;
 namespace Vilanova.Infrastructure.Migrations
 {
     [DbContext(typeof(VilanovaContext))]
-    [Migration("20181221200220_Create_DataBase")]
-    partial class Create_DataBase
+    [Migration("20190325183218_Criar_Database")]
+    partial class Criar_Database
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -34,7 +34,8 @@ namespace Vilanova.Infrastructure.Migrations
 
                     b.Property<int>("PessoaId");
 
-                    b.Property<int>("TipoContatoId");
+                    b.Property<int>("TipoContatoId")
+                        .HasColumnName("TipoContatoId");
 
                     b.HasKey("id");
 
@@ -124,12 +125,12 @@ namespace Vilanova.Infrastructure.Migrations
             modelBuilder.Entity("Vilanova.Domain.Entities.Contato", b =>
                 {
                     b.HasOne("Vilanova.Domain.Entities.Pessoa", "Pessoa")
-                        .WithMany("Contato")
+                        .WithMany("Contatos")
                         .HasForeignKey("PessoaId")
                         .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("Vilanova.Domain.Entities.TipoContato", "TipoContato")
-                        .WithMany("Contato")
+                        .WithMany("Contatos")
                         .HasForeignKey("TipoContatoId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
@@ -137,7 +138,7 @@ namespace Vilanova.Infrastructure.Migrations
             modelBuilder.Entity("Vilanova.Domain.Entities.Endereco", b =>
                 {
                     b.HasOne("Vilanova.Domain.Entities.Pessoa", "Pessoa")
-                        .WithMany("Endereco")
+                        .WithMany("Enderecos")
                         .HasForeignKey("PessoaId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });

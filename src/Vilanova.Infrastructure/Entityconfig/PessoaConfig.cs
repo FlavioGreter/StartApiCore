@@ -37,12 +37,14 @@ namespace Vilanova.Infrastructure.Entityconfig
                 .HasColumnName("DataNascimento");
 
             //Mapeamento dos relacionamentos
-            builder.HasMany(e => e.Endereco)
+          
+
+            builder.HasMany(e => e.Enderecos)
                 .WithOne(p => p.Pessoa)
                 .HasForeignKey(e => e.PessoaId)
                 .HasPrincipalKey(p => p.id);
 
-            builder.HasMany(c => c.Contato)
+            builder.HasMany(c => c.Contatos)
                 .WithOne(p => p.Pessoa)
                 .HasForeignKey(c => c.PessoaId)
                 .HasPrincipalKey(p => p.id);

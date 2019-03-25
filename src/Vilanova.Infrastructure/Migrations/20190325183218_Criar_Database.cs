@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Vilanova.Infrastructure.Migrations
 {
-    public partial class Create_DataBase : Migration
+    public partial class Criar_Database : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
