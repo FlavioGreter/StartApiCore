@@ -39,7 +39,7 @@ namespace Vilanova.Application
 
         public TEntity GetById(int id)
         {
-            return GetById(id);
+            return _serviceBase.GetById(id);
         }
 
         public void Update(TEntity entity)

@@ -22,11 +22,14 @@ namespace Vilanova.WebApi.Controllers
 
         // GET: api/Pessoa
         [HttpGet]
+        [ProducesResponseType(typeof(Pessoa), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public IEnumerable<Pessoa> Get()
         {
             try
             {
                 return _pessoaAppService.GetAllWithInclude();
+                        
             }
             catch (Exception ex)
             {
@@ -40,7 +43,8 @@ namespace Vilanova.WebApi.Controllers
         {
             try
             {
-                return _pessoaAppService.GetById(id);
+                var retorno = _pessoaAppService.GetById(id);
+                return retorno;
             }
             catch (Exception ex)
             {

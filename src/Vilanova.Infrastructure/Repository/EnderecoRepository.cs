@@ -15,7 +15,7 @@ namespace Vilanova.Infrastructure.Repository
 
         public IEnumerable<Endereco> GetAllWithInclude()
         {
-            var retorno = _db.Enderecos.Include(p => p.Pessoa).Include(c => c.Pessoa.Contatos).ToList();
+            var retorno = _db.Enderecos.Include(p => p.Pessoa).Include(c => c.Pessoa.Contatos);
 
             return retorno;
         }
